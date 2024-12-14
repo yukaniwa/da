@@ -18,7 +18,7 @@ display: block;
 .sen {
   width: 50px;
   height: 100px;
-  margin: 0 0 0 100px;
+  margin: 0 0 0 180px;
   background-image: linear-gradient(-45deg,
       transparent 51%,
       white 51%,
@@ -29,7 +29,7 @@ display: block;
 .sen1 {
   width: 50px;
   height: 100px;
-  margin: 0 0 0 410px;
+  margin: 0 0 0 350px;
   background-image: linear-gradient(-45deg,
       transparent 51%,
       white 51%,
@@ -70,7 +70,7 @@ header .hed p {
 }
 
 .aaa {
-  margin-top: 50px;
+  margin-bottom: -20px;
 }
 
 .aaa h2 {
@@ -181,6 +181,7 @@ section h2 {
 
 .desc p {
   padding-bottom: 42px;
+  font-size: 14px;
 
 }
 
@@ -237,7 +238,9 @@ dl div {
 dd {
   margin: 8px;
 }
-
+dt{
+  margin: 12px;
+}
 .img5 {
   position: relative;
 }
@@ -366,15 +369,17 @@ dd {
 }
 
 .fin1 {
- margin: auto;
+ margin: 0;
+ text-align: center;
 }
 
 iframe {
+  text-align: center;
   position: absolute;
-  height: 375px;
+  height: 350px;
   width: 350px;
   display: block;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .img88 {
