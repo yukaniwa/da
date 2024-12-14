@@ -214,16 +214,15 @@ span {
   margin-top: 10px;
 }
 
-dl {
-  padding: 10px 6px;
-}
+
 
 dl div {
   padding: 8px 8px;
 }
 
-dd {
+.i99 p {
   margin: 8px;
+  font-size: 16px;
 }
 dt{
   margin: 12px;
@@ -359,6 +358,7 @@ margin-bottom: 5px;
 .fin1 {
  margin: 0;
  text-align: center;
+ left: 23%;
 }
 
 iframe {
@@ -373,7 +373,7 @@ iframe {
 .img88 {
   position: absolute;
   top: 5%;
-  left: 50%;
+  left: 40%;
   width: 80px;
   height: 80px;
   display: block;
@@ -617,12 +617,12 @@ small {
 
   .aa1 {
     position: absolute;
-    top: 23%;
+    top: 18%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
     writing-mode: vertical-rl;
-   
+    
   }
 
   /* qqq */
@@ -633,10 +633,12 @@ small {
     transform: translate(-50%, -50%);
     color: black;
     padding: 0 8px;
-    margin-top: 200px;
+    margin-top: 300px;
     margin: 10px;
   }
-
+.lol{
+  margin: 80px 100px;
+}
   dl {
     padding: 50px 6px;
   }
@@ -653,7 +655,6 @@ small {
 
   .img5 {
     position: relative;
-
   }
 
   .img5 img {
@@ -724,29 +725,25 @@ small {
 
   /* out */
 
- .out1 .img7 {
-  display: inline-block;
-  text-align: center;
+  .out .out1 .img7 {
     display: block;
-    width: 3000px;
+   
     height: auto;
-    
-    text-align: center;
   }
-
   .out .img6 {
     position: absolute;
     display: block;
     width: 50px;
     height: 50px;
-    left: 47%;
+    left: 50%;
     top: 20%;
   }
 
   .out .out1 {
     position: absolute;
     display: inline-block;
-    text-align: center;
+    margin: 0;
+    width: 100%;
   }
 
   .out .ttt {
@@ -787,7 +784,7 @@ small {
 
   .fin1 {
     display: flex;
-    margin: 0 0 0 200px;
+    margin: 0 0 0 3px;
   }
 
   iframe {
@@ -838,7 +835,7 @@ small {
     width: 80px;
     height: 80px;
     display: block;
-    margin: 30px 0 0 650px;
+    
   }
 
 
