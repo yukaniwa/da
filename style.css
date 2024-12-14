@@ -316,16 +316,14 @@ dt{
 }
 
 .out .ttt {
-  left: 18%;
-  display: flex;
-      gap: 40px;
       text-align: center;
      margin: 0 auto;
       color: white;
+      margin-bottom: 30px;
 }
 
 .tot p {
-  margin: 40px 0px;
+  margin: 20px 0px;
 }
 
 .out a {
@@ -334,8 +332,9 @@ dt{
   color: #fbfeff;
   font-size: 14px;
   cursor: pointer;
-  padding: 5px 20px;
+  padding: 5px 15px;
   margin: 0 auto;
+margin-bottom: 5px;
 }
 
 .out a:hover {
@@ -374,10 +373,10 @@ iframe {
 .img88 {
   position: absolute;
   top: 5%;
+  left: 50%;
   width: 80px;
   height: 80px;
   display: block;
-  margin: 30px 0 0 230px;
 }
 
 .access1 p {
@@ -397,15 +396,18 @@ iframe {
   top: 17%;
   color: white;
   font-size: 18px;
-  margin: 10px 0 0 260px;
+  margin: 0 auto;
+left: 50%;
   font-weight: normal;
 }
 
 .fin1 {
   position: absolute;
   top: 28%;
+  text-align: center;
   margin-top: 40px;
-  margin: 0 0 0 100px;
+width: 100%;
+height: 400px;
 }
 
 .access {
@@ -538,7 +540,7 @@ small {
     width: calc((100% - 60px) / 4);
     height: 150px;
     margin-top: 10px;
-    margin-bottom: 400px;
+    margin-bottom: 380px;
   }
 
   .img2 img {
@@ -620,6 +622,7 @@ small {
     transform: translate(-50%, -50%);
     color: black;
     writing-mode: vertical-rl;
+   
   }
 
   /* qqq */
@@ -631,6 +634,7 @@ small {
     color: black;
     padding: 0 8px;
     margin-top: 200px;
+    margin: 10px;
   }
 
   dl {
@@ -642,11 +646,14 @@ small {
   }
 
   dd {
-    margin: 8px;
+    display: block;
+    margin-inline-start: 40px;
+    unicode-bidi: isolate;
   }
 
   .img5 {
     position: relative;
+
   }
 
   .img5 img {
@@ -717,10 +724,14 @@ small {
 
   /* out */
 
-  .out .out1 .img7 {
+ .out1 .img7 {
+  display: inline-block;
+  text-align: center;
     display: block;
-    width: 1400px;
+    width: 3000px;
     height: auto;
+    
+    text-align: center;
   }
 
   .out .img6 {
@@ -1044,7 +1055,7 @@ small {
   .sen1 {
     width: 50px;
     height: 100px;
-    margin: 0 0 0 1000px;
+    margin: 0 0 0 985px;
     background-image: linear-gradient(-45deg,
         transparent 51%,
         white 51%,
