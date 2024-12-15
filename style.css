@@ -212,6 +212,7 @@ span {
   transform: translate(-50%, -50%);
   color: black;
   margin-top: 10px;
+  width: 80%;
 }
 
 
@@ -363,7 +364,6 @@ margin-bottom: 5px;
 
 iframe {
   position: absolute;
-  
   height: 250px;
   width: 250px;
   display: block;
@@ -383,12 +383,10 @@ iframe {
   margin: 0;
   font-size: 14px;
   color: white;
-
 }
 
 .access1 {
   margin: 18px;
-
 }
 
 .aa100 h2 {
@@ -397,7 +395,7 @@ iframe {
   color: white;
   font-size: 18px;
   margin: 0 auto;
-left: 50%;
+left: 48%;
   font-weight: normal;
 }
 
@@ -513,15 +511,20 @@ small {
   /* section1 */
   .main {
     display: flex;
-    margin: 100px 0 0 200px;
+   margin: 0 100px;
     gap: 32px;
-    padding: 100px 16px;
+    
   }
 
   .desc {
     color: white;
   }
-
+.main img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
   /* お品書き */
   .img2 {
     list-style: none;
@@ -635,6 +638,7 @@ small {
     padding: 0 8px;
     margin-top: 300px;
     margin: 10px;
+    width: 80%;
   }
 .lol{
   margin: 80px 100px;
@@ -669,7 +673,7 @@ small {
   }
 
   .aa9 h3 {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: normal;
   }
 
@@ -725,29 +729,26 @@ small {
 
   /* out */
 
-  .out .out1 .img7 {
-    display: block;
-   
-    height: auto;
-  }
-  .out .img6 {
-    position: absolute;
-    display: block;
+  .img6 {
+  position: absolute;
     width: 50px;
     height: 50px;
-    left: 50%;
-    top: 20%;
+    left: 45%;
+    top: 1280%;
   }
 
-  .out .out1 {
-    position: absolute;
-    display: inline-block;
-    margin: 0;
-    width: 100%;
+  .img7 {
+    position: relative;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
   }
+ 
+ 
+  
 
   .out .ttt {
-    position: relative;
+    position: absolute;
     left: 32%;
     display: flex;
     gap: 200px;
@@ -756,8 +757,13 @@ small {
     color: white;
   }
 
-  .tot p {
+  .tt1 p {
     margin: 40px 0px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
   }
 
   .out a {
@@ -784,8 +790,12 @@ small {
 
   .fin1 {
     display: flex;
-    margin: 0 0 0 3px;
-  }
+      margin: 0;
+      text-align: center;
+     
+      
+     }
+  
 
   iframe {
     position: absolute;
@@ -803,7 +813,7 @@ small {
   }
 
   .access1 {
-    gap: 100px;
+    gap: 200px;
     margin: 12px;
     padding: 3px 5px 3px;
   }
@@ -821,23 +831,21 @@ small {
 
   .aa100 h2 {
     position: absolute;
-    top: 2%;
+    top: 20%;
+    left: 62%;
     color: white;
     font-size: 18px;
-    margin: 200px 0 0 860px;
+    margin: 0;
     font-weight: normal;
   }
 
-
-  .img88 {
-    position: absolute;
+  .kkk .img88 {
     top: 5%;
+    left: 45%;
+   margin: 0;
     width: 80px;
     height: 80px;
-    display: block;
-    
   }
-
 
   /* footer */
 
