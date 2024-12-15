@@ -525,7 +525,11 @@ small {
   .desc {
     color: white;
   }
-
+  .desc p {
+    padding-bottom: 42px;
+    font-size: 14px;
+  
+  }
   /* お品書き */
   .img2 {
     list-style: none;
@@ -736,7 +740,7 @@ small {
     width: 50px;
     height: 50px;
     left: 45%;
-    top: 30%;
+    top: 20%;
   }
 
   .img7 {
