@@ -348,7 +348,7 @@ margin-bottom: 5px;
   width: 50px;
   height: 50px;
   left: 47%;
-  top: 1220%;
+  top: 1350%;
 }
 
 /* acces */
@@ -364,8 +364,8 @@ margin-bottom: 5px;
 
 iframe {
   position: absolute;
-  height: 250px;
-  width: 250px;
+  height: 350px;
+  width: 300px;
   display: block;
   margin: 0 auto;
 }
@@ -511,20 +511,20 @@ small {
   /* section1 */
   .main {
     display: flex;
-   margin: 0 100px;
-    gap: 32px;
-    
+   margin: 0 180px;
+    gap: 130px;
+    left: 50%;
   }
-
+  .main img {
+    display: block;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+  }
   .desc {
     color: white;
   }
-.main img {
-  display: block;
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-}
+
   /* お品書き */
   .img2 {
     list-style: none;
@@ -625,18 +625,18 @@ small {
     transform: translate(-50%, -50%);
     color: black;
     writing-mode: vertical-rl;
-    
+ 
   }
 
   /* qqq */
   .qqq {
     position: absolute;
-    top: 50%;
+    top: 68%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
     padding: 0 8px;
-    margin-top: 300px;
+    margin-top: 200px;
     margin: 10px;
     width: 80%;
   }
@@ -663,6 +663,7 @@ small {
 
   .img5 img {
     width: 100%;
+    height: 1300px;
   }
 
   /* お知らせ */
