@@ -348,7 +348,7 @@ margin-bottom: 5px;
   width: 50px;
   height: 50px;
   left: 47%;
-  top: 1355%;
+  top: 6690px;
 }
 
 /* acces */
@@ -405,15 +405,12 @@ left: 48%;
   top: 20%;
   text-align: center;
   margin-top: 40px;
-width: 100%;
+
 height: 400px;
 }
 
 .access {
-  position: absolute;
-  top: 45%;
-  margin-top: 10px;
-  margin: 50px;
+  margin: auto;
 }
 
 .kkkk {
@@ -512,9 +509,8 @@ small {
   /* section1 */
   .main {
     display: flex;
-   margin: 0 180px;
-    gap: 130px;
-    left: 50%;
+   margin: auto;
+    gap: 10px;
   }
   .main img {
     display: block;
@@ -533,7 +529,6 @@ small {
   /* お品書き */
   .img2 {
     list-style: none;
-    margin: 18px 0 0;
     padding: 0;
     display: flex !important;
     gap: 16px;
@@ -552,8 +547,8 @@ small {
   }
 
   .img2 img {
-    width: 300px;
-    height: 230px;
+    width: 100%;
+    height: 200px;
   }
 
   .img2 h2 {
@@ -576,7 +571,7 @@ small {
 
   .main1 {
     display: flex;
-    margin: 30px  250px;
+    margin: 30px  50px;
     gap: 32px;
   
   }
@@ -585,7 +580,9 @@ small {
     width: 100%;
     height: 300px;
   }
-
+.desc{
+  width: 50%;
+}
   .desc a {
     all: unset;
     border: 1px solid white;
@@ -703,7 +700,7 @@ small {
   .timeline .eee {
     text-align: center;
     width: 60%;
-    margin: 80px 100px;
+    margin: 80px 50px;
   }
 
   .timeline a {
@@ -791,7 +788,8 @@ small {
     position: relative;
   }
 .fin{
-  margin: 0 auto;
+  margin: 0 100px;
+  display: flex;
 }
   
      .fin1 {
@@ -816,7 +814,7 @@ small {
 
   .access {
     position: absolute;
-    margin: 0 0 0 700px;
+    left: 50%;
     top: 28%;
   }
 
@@ -828,10 +826,10 @@ small {
   .aa100 h2 {
     position: absolute;
     top: 15%;
-    left: 62%;
+    left: 65%;
     color: white;
     font-size: 18px;
-    margin: 0;
+    
     font-weight: normal;
   }
 
@@ -1056,7 +1054,7 @@ small {
   .sen1 {
     width: 50px;
     height: 100px;
-    margin: 0 0 0 985px;
+    margin: 0 0 0 600px;
     background-image: linear-gradient(-45deg,
         transparent 51%,
         white 51%,
