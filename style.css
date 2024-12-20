@@ -299,7 +299,9 @@ dt{
 }
 
 /* out */
-
+.out{
+  position: relative;
+}
 .out .out1 .img7 {
   display: block;
   width: 100%;
@@ -342,14 +344,19 @@ margin-bottom: 5px;
   transition: none;
   color: black;
 }
-.out .img6 {
+.img6 {
   position: absolute;
-  display: block;
-  width: 50px;
-  height: 50px;
-  left: 47%;
-  top: 6690px;
-}
+  top: 15%;
+  left: 50%;
+      text-align: center;
+      -ms-transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      transform: translate(-50%,-50%);
+   margin: 0;
+   padding: 0;
+  width: 40px;
+  height: 40px;
+  }
 
 /* acces */
 .kkk {
@@ -387,6 +394,7 @@ iframe {
 
 .access1 {
   margin: 18px;
+  
 }
 
 .aa100 h2 {
@@ -411,6 +419,9 @@ height: 400px;
 
 .access {
   margin: auto;
+  position: absolute;
+  left: 10%;
+  top: 50%;
 }
 
 .kkkk {
@@ -514,8 +525,6 @@ small {
   }
   .main img {
     display: block;
-    width: 400px;
-    height: auto;
     margin: 0 auto;
   }
   .desc {
@@ -729,28 +738,38 @@ small {
   }
 
   /* out */
+.out{
+  position: relative;
+}
 
   .img7 {
-    position: relative;
     width: 100%;
   }
   
  .img6 {
   position: absolute;
-  top: 5%;
-  left: 45%;
- margin: 0;
+  top: 20%;
+  left: 50%;
+      text-align: center;
+      -ms-transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      transform: translate(-50%,-50%);
+   margin: 0;
+   padding: 0;
   width: 80px;
   height: 80px;
   }
 
 .tot {
   position: absolute;
-      top: 1159%;
-      left: 28%;
+  top: 40%;
+  left: 30%;
       text-align: center;
-   margin: 0 auto;
- 
+      -ms-transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      transform: translate(-50%,-50%);
+   margin: 0;
+   padding: 0;
 }
  .ttt {
   display: flex;
