@@ -68,7 +68,7 @@ section h2 {
 
 /* section1 */
 .main {
-  margin: 10px 10px 0 10px;
+  margin: 0 auto;
   padding: 50px 20px;
 }
 
@@ -519,14 +519,15 @@ small {
 
   /* section1 */
   .main {
+   
     display: flex;
    margin: 0 auto;
-   padding: 50px;
+   padding: 0 200px;
     gap: 20px;
   }
   .main img {
     display: block;
-    width: 400px;
+    width: 350px;
     height: auto;
   }
   .desc {
@@ -584,6 +585,7 @@ small {
     display: flex;
     margin: 30px  50px;
     gap: 32px;
+    padding: 0 200px;
   
   }
 
@@ -625,7 +627,7 @@ small {
   }
 
   .yyy {
-    margin: 20px 500px 0px 630px;
+    margin: 15px 450px 0px 660px;
   }
 
   /* 良くある質問 */
@@ -1064,7 +1066,7 @@ small {
   .sen {
     width: 50px;
     height: 100px;
-    margin: 0 0 0 300px;
+    margin: 0 0 0 30%;
     background-image: linear-gradient(-45deg,
         transparent 51%,
         white 51%,
@@ -1075,7 +1077,7 @@ small {
   .sen1 {
     width: 50px;
     height: 100px;
-    margin: 0 0 0 600px;
+    margin: 0 0 0 65%;
     background-image: linear-gradient(-45deg,
         transparent 51%,
         white 51%,
