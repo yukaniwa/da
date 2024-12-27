@@ -585,8 +585,8 @@ small {
     display: flex;
     margin: 30px  50px;
     gap: 32px;
-    padding: 0 200px;
-  
+    padding: 0 150px;
+
   }
 
   .main1 img {
@@ -627,7 +627,7 @@ small {
   }
 
   .yyy {
-    margin: 15px 450px 0px 660px;
+    margin: 15px 450px 0px 610px;
   }
 
   /* 良くある質問 */
@@ -767,7 +767,7 @@ small {
 .tot {
   position: absolute;
   top: 40%;
-  left: 30%;
+  left: 27%;
       text-align: center;
       -ms-transform: translate(-50%,-50%);
       -webkit-transform: translate(-50%,-50%);
